@@ -4,11 +4,15 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ravi
-middle_name:
+middle_name: Kastanos
 last_name: Hammond
 email: ravi.hammond@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: >
+  Research portfolio of Ravi Kastanos Hammond.
+ffooter_text: >
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Photos from <aohref="https://unsplash.com" target="_blank">Unsplash</a>.
 icon: 😃 # the emoji used as the favicon
 url: ravihammond.github.io
 baseurl: / # the subpath of your site, e.g. /blog/
@@ -26,7 +30,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -148,7 +152,6 @@ github: [metadata]
 scholar:
 
   last_name: Hammond
-  first_name: [Ravi, K.]
 
   style: apa
   locale: en
