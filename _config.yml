@@ -4,9 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ravi
-middle_name: Kastanos
+middle_name:
 last_name: Hammond
-email: ravi.hammond@gmail.com
+email: ravi.hammond@adelaide.edu.au
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research portfolio of Ravi Kastanos Hammond.
 ffooter_text: >
@@ -14,8 +14,8 @@ ffooter_text: >
     Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
     Photos from <aohref="https://unsplash.com" target="_blank">Unsplash</a>.
 icon: 😃 # the emoji used as the favicon
-url: ravihammond.github.io
-baseurl: / # the subpath of your site, e.g. /blog/
+url: 
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -55,7 +55,7 @@ linkedin_username: ravihammond
 scholar_userid: # your Google Scholar ID
 orcid_id: 
 medium_username: # your Medium username
-quora_username: Ravi-Hammond-1
+quora_username: 
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
@@ -75,7 +75,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: blog  # your blog must have a name for it to show up in the nav bar
-blog_description: a description about my blog
+blog_description: description of my blog
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -97,9 +97,9 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:year/:title/
 
-news_limit: 5
+news_limit: 8
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
