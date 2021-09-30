@@ -52,6 +52,7 @@ github_username: ravihammond
 gitlab_username: 
 twitter_username: ravihammond
 linkedin_username: ravihammond
+youtube_url: UC_l1HjrPS7ER6uqeudPTD9Q
 scholar_userid: # your Google Scholar ID
 orcid_id: 
 medium_username: # your Medium username
@@ -140,6 +141,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-pdf-embed
   - jemoji
 
 # Extras

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% include head.html %}
+        {% include scripts/mathjax.html %}
+    </head>
+
+    <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} body-full">
+        <!--<body class="body-cv">-->
+
+        <!-- Header -->
+
+        {% include header.html %}
+
+        <!-- Content -->
+
+        <div class="full-box">
+            <div class="full-content">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+
+    {% include scripts/bootstrap.html %}
+    {% include scripts/mansory.html %}
+    {% include scripts/misc.html %}
+
+</html>

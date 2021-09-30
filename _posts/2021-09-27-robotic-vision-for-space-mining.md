@@ -1,9 +1,39 @@
 ---
 layout: distill
-title: a distill-style blog post xx
-date: 2021-05-23
-description: an example of a distill-style blog post and main elements
+title: robotic vision for space mining
+date: 2021-09-27
+description: university of adelaide's solution to the nasa space robotics challenge
 comments: true
+
+authors:
+  - name: Ravi Hammond
+    url: "https://ravihammond.github.io"
+    affiliations:
+      name: AIML, Adelaide 
+
+# Below is an example of injecting additional post-specific styles.
+# If you use this post as a template, delete this _styles block.
+_styles: >
+  .padded {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .caption {
+    line-height: 130%;
+  }
+
+  .verbatim {
+    background: #f0f0f0;
+  }
+
+  .link_btn {
+    border: 1px solid;
+  }
+
+bibliography: 2021-09-27-distill.bib
 ---
 
 **NOTE:**
@@ -239,3 +269,4 @@ This line is separated from the one above by two newlines, so it will be a *sepa
 
 This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+

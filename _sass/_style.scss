@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+// --- Styles for full page layout --- //
+
+.body-full {
+    padding-bottom: 0px;
+}
+
+.full-box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.full-content {
+    flex: 1 1 auto;
+}
+
